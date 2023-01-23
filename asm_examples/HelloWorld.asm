@@ -2,7 +2,7 @@
         output:
         .ascii "Hello World!\n"
 .section .text
-        .global main
+        .globl main
 main:
 movl $4, %eax
 movl $1, %ebx
